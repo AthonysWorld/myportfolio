@@ -34,6 +34,14 @@ span{color:#a5d7e8;}
   padding-top: 40px;
   margin-top: 20px;
 }
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.img{
+    margin-left: 0%;
+}
 
 /* HEADER ENDS */
 
