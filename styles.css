@@ -63,7 +63,8 @@ span{color:#a5d7e8;}
     #header h1{
         font-size: 2rem;
     }
-    .work{ height: 100px;}
+    .work{ height: 100px;
+    width: 200px;}
     
     .img1{
         height: 200px;
