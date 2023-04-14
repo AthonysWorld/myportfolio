@@ -60,19 +60,26 @@ span{color:#a5d7e8;}
         width: 200px;
         border-radius: 100%;
     }
-    .text{
-        margin-bottom: 15px;
+    .btn{
+        margin-bottom: 40px;
     }
     body{
         text-align: center;
-        font-size: 13px;
+        font-size: 14px;
     }
     #header{
-        padding: 10px;
         padding-top: 0;
+        margin-bottom: 100px;
     margin-left: 0;}
     #mystory{
-        margin-top: 40px;
+        margin-top: 50px;
+    }
+    .logo{
+        height: 50px;
+        width: 60px;
+    }
+    .one{
+        padding: 0;
     }
     }
 
