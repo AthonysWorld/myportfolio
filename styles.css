@@ -45,9 +45,17 @@ span{color:#a5d7e8;}
 
 /* HEADER ENDS */
 
-/* MY STORY */
-
-/* MY STORY ENDS */
+/* projects */
+#projects{
+    padding: 10px;
+}
+.projects{
+    margin-bottom: 20px;
+}
+.project-row{
+    margin: 0%;
+}
+/* projects ENDS */
 
 
 /* MEDIA Q */
@@ -73,6 +81,7 @@ span{color:#a5d7e8;}
     margin-left: 0;}
     #mystory{
         margin-top: 50px;
+        margin-bottom: 100px;
     }
     .logo{
         height: 50px;
@@ -97,6 +106,7 @@ span{color:#a5d7e8;}
     }
     #mystory{
         margin-top: 100px;
+        margin-bottom: 150px;
     }
     .img1{
         height: 400px;
