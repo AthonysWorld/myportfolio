@@ -26,9 +26,14 @@ span{color:#a5d7e8;}
     margin: 40px 0 0 20px;
 }
 .btn{
-    color:#0b2447;
-    background-color: #a5d7e8;
+    color:#a5d7e8;
+    background-color: #0b2447;
     margin-bottom: 80px;
+    border: 2px solid #a5d7e8;
+}
+.btn:hover{
+    color: #0b2447;
+    background-color: #a5d7e8;
 }
 .container-fluid{
   padding-top: 40px;
@@ -40,7 +45,9 @@ span{color:#a5d7e8;}
 
 /* HEADER ENDS */
 
+/* MY STORY */
 
+/* MY STORY ENDS */
 
 
 /* MEDIA Q */
@@ -49,8 +56,8 @@ span{color:#a5d7e8;}
         font-size: 2rem;
     }
     .img1{
-        height: 220px;
-        width: 220px;
+        height: 200px;
+        width: 200px;
         border-radius: 100%;
     }
     body{
@@ -60,11 +67,20 @@ span{color:#a5d7e8;}
     #header{
         padding: 10px;
     margin-left: 0;}
+    #mystory{
+        margin-top: 40px;
+    }
     }
 
 @media (min-width:900px) {
     #header h1{
         font-size: 3rem;
+    }
+    .con2{
+        padding-left: 60px;
+    }
+    #mystory{
+        margin-top: 100px;
     }
     .img1{
         height: 400px;
