@@ -18,6 +18,16 @@ span{color:#a5d7e8;}
 .navbar-toggler{
     background-color: #a5d7e8;
 }
+.card{
+    background-color: #0b2447;
+    height: auto;
+}
+.btn{
+    color:#a5d7e8;
+    background-color: #0b2447;
+    margin-top: 5px;
+    border: 2px solid #a5d7e8;
+}
 /* NAV ENDS */
 
 /* HEADER */
@@ -25,11 +35,8 @@ span{color:#a5d7e8;}
     padding: 20px;
     margin: 40px 0 0 20px;
 }
-.btn{
-    color:#a5d7e8;
-    background-color: #0b2447;
+.cardbtn{
     margin-bottom: 80px;
-    border: 2px solid #a5d7e8;
 }
 .btn:hover{
     color: #0b2447;
