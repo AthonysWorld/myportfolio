@@ -77,11 +77,12 @@ span{color:#a5d7e8;}
 
 /* MEDIA Q */
 @media(max-width :900px) {
-    #header,#education h1{
+    #header #education h1{
         font-size: 2rem;
     }
     .work{ height: 200px;
     }
+
     #education .card{
         margin-bottom: 20px;
     }
