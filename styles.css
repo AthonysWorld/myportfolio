@@ -31,7 +31,7 @@ span{color:#a5d7e8;}
 /* NAV ENDS */
 
 /* HEADER */
-#header{
+#header, #education{
     padding: 20px;
     margin: 40px 0 0 20px;
 }
@@ -64,19 +64,32 @@ span{color:#a5d7e8;}
 }
 /* projects ENDS */
 
+/* EDUCATION */
+#education{
+    text-align: center;
+}
+#education .card{
+    box-shadow: 3px 2px 3px 2px #00000050;
+    padding-top: 30px;
+}
+/* EDUCATION ENDS */
+
 
 /* MEDIA Q */
 @media(max-width :900px) {
-    #header h1{
+    #header,#education h1{
         font-size: 2rem;
     }
     .work{ height: 200px;
     }
-    
+    #education .card{
+        margin-bottom: 20px;
+    }
     .img1{
         height: 300px;
         width: 300px;
         border-radius: 100%;
+        margin-bottom: 20px;
     }
     .btn{
         margin-bottom: 40px;
@@ -85,6 +98,10 @@ span{color:#a5d7e8;}
         text-align: center;
         font-size: 14px;
     }
+    #education{
+        margin-bottom: 100px;   
+    }
+    
     #header{
         padding-top: 0;
         margin-bottom: 100px;
@@ -114,6 +131,10 @@ span{color:#a5d7e8;}
     .con2{
         padding-left: 60px;
     }
+    #education .card{
+        margin-right: auto;
+        margin-top: 10px;
+    }
     #mystory{
         margin-top: 100px;
         margin-bottom: 150px;
@@ -122,6 +143,7 @@ span{color:#a5d7e8;}
         height: 400px;
         width: 400px;
         border-radius: 100%;
+        margin-bottom: 10px;
     }
 }
 /* MEDIA Q ENDS */
