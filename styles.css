@@ -67,12 +67,39 @@ span{color:#a5d7e8;}
 /* EDUCATION */
 #education{
     text-align: center;
+    margin-bottom: 150px;
 }
 #education .card{
     box-shadow: 3px 2px 3px 2px #00000050;
     padding-top: 30px;
 }
 /* EDUCATION ENDS */
+
+
+/* contact */
+#contact{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+#contact .btn{
+    width: 50%;
+    margin-top: 30px;
+}
+/* CONTACT ENDS */
+
+
+/* FOOTER */
+.icon{
+    margin-right: 20px;
+}
+.footer-container{
+text-align: center;
+padding-bottom: 30px;
+}
+/* FOOTER ENDS */
+
 
 
 /* MEDIA Q */
@@ -145,6 +172,10 @@ span{color:#a5d7e8;}
         width: 400px;
         border-radius: 100%;
         margin-bottom: 10px;
+    }
+    
+    #contact .btn{
+      margin-bottom: 15px;  
     }
 }
 /* MEDIA Q ENDS */
