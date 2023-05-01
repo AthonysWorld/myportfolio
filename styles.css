@@ -79,7 +79,6 @@ span{color:#a5d7e8;}
 /* contact */
 #contact{
     text-align: center;
-    margin-bottom: 100px;
 }
 
 
@@ -93,6 +92,7 @@ span{color:#a5d7e8;}
 /* FOOTER */
 .icon{
     margin-right: 20px;
+    color: #a5d7e8;
 }
 .footer-container{
 text-align: center;
@@ -145,6 +145,9 @@ padding-bottom: 30px;
     .one{
         padding: 0;
     }
+    #contact{
+        margin-bottom: 20px;
+    }
     }
 
 
@@ -172,6 +175,9 @@ padding-bottom: 30px;
         width: 400px;
         border-radius: 100%;
         margin-bottom: 10px;
+    }
+    #contact{
+        margin-bottom: 100px;
     }
     
     #contact .btn{
