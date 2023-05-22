@@ -3,6 +3,12 @@ body{
     background-color: #0b2447;
     color: white;
 }
+.icon{
+color: #a5d7e8;
+}
+html{
+    scroll-behavior: smooth;
+}
 span{color:#a5d7e8;}
 /* NAV */
 .navbar{
@@ -10,6 +16,10 @@ span{color:#a5d7e8;}
 }
 .nav-link{
     color: #a5d7e8;
+}
+hr{
+    color: white;
+    margin-top: 40px;
 }
 .logo{
     height: 60px;
@@ -65,7 +75,7 @@ span{color:#a5d7e8;}
 /* projects ENDS */
 
 /* EDUCATION */
-#education{
+#education,#skills{
     text-align: center;
     margin-bottom: 150px;
 }
@@ -90,7 +100,7 @@ span{color:#a5d7e8;}
 
 
 /* FOOTER */
-.icon{
+.icons{
     margin-right: 20px;
     color: #a5d7e8;
 }
@@ -100,7 +110,9 @@ padding-bottom: 30px;
 }
 /* FOOTER ENDS */
 
-
+#skills{
+    margin: 40px 0 40px 0;
+}
 
 /* MEDIA Q */
 @media(max-width :900px) {
@@ -126,7 +138,7 @@ padding-bottom: 30px;
         text-align: center;
         font-size: 14px;
     }
-    #education{
+    #education,#skills{
         margin-bottom: 100px;   
     }
     
