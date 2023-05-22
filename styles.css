@@ -9,6 +9,28 @@ color: #a5d7e8;
 html{
     scroll-behavior: smooth;
 }
+#header, #skills, #education, #footer,#mystory,#projects,#contact{
+    animation: 5s;
+    -moz-animation: header 3s;
+    -webkit-animation: header 3s;
+    -o-animation: header 3s;
+}
+@keyframes header {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+  @-moz-keyframes header {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 span{color:#a5d7e8;}
 /* NAV */
 .navbar{
