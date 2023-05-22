@@ -5,6 +5,11 @@ body{
 }
 .icon{
 color: #a5d7e8;
+margin-bottom: 10px;
+}
+.ico{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 html{
     scroll-behavior: smooth;
