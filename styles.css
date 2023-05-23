@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: #0b2447;
-    color: white;
+    color: #a5d7e8;
 }
 .icon{
 color: #a5d7e8;
@@ -14,7 +14,7 @@ margin-bottom: 10px;
 html{
     scroll-behavior: smooth;
 }
-#header, #skills, #education, #footer,#mystory,#projects,#contact{
+#header{
     animation: 5s;
     -moz-animation: header 3s;
     -webkit-animation: header 3s;
@@ -36,7 +36,7 @@ html{
         opacity: 1;
     }
 }
-span{color:#a5d7e8;}
+span{color:white;}
 /* NAV */
 .navbar{
     padding: 10px 20px 0 10px;
@@ -148,6 +148,9 @@ padding-bottom: 30px;
     }
     .work{ height: 200px;
     }
+    #projects{
+        font-size: 16px;
+    }
 
     #education .card{
         margin-bottom: 20px;
@@ -166,16 +169,19 @@ padding-bottom: 30px;
         font-size: 14px;
     }
     #education,#skills{
-        margin-bottom: 100px;   
+        margin-bottom: 100px;  
+        font-size: 16px; 
     }
     
     #header{
         padding-top: 0;
         margin-bottom: 100px;
+        font-size: 16px;
     margin-left: 0;}
     #mystory{
         margin-top: 50px;
         margin-bottom: 100px;
+        font-size: 16px;
     }
     .logo{
         height: 50px;
@@ -186,6 +192,7 @@ padding-bottom: 30px;
     }
     #contact{
         margin-bottom: 20px;
+        font-size: 16px;
     }
     }
 
