@@ -7,6 +7,9 @@ body{
 color: #a5d7e8;
 margin-bottom: 10px;
 }
+.fixed-top{
+    background-color: #0b2447;
+}
 .ico{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -47,6 +50,9 @@ span{color:white;}
 hr{
     color: white;
     margin-top: 40px;
+}
+.hr-two{
+    margin-top: 80px;
 }
 .logo{
     height: 60px;
