@@ -3,6 +3,9 @@ body{
     background-color: #0b2447;
     color: #a5d7e8;
 }
+a{
+    text-decoration: none;
+}
 .icon{
 color: #a5d7e8;
 margin-bottom: 10px;
