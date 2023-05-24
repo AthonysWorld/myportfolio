@@ -75,6 +75,8 @@ hr{
     margin-top: 5px;
     border: 2px solid #a5d7e8;
 }
+#education{
+text-align: center;}
 /* NAV ENDS */
 
 /* HEADER */
@@ -126,6 +128,8 @@ hr{
 /* contact */
 #contact{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0%;
 }
 
 
@@ -149,6 +153,10 @@ padding-bottom: 30px;
 
 #skills{
     margin: 40px 0 40px 0;
+}
+#mystory{
+    margin-top: 200px;
+    margin-bottom: 250px;
 }
 
 /* MEDIA Q */
@@ -204,15 +212,10 @@ padding-bottom: 30px;
         margin-bottom: 20px;
         font-size: 16px;
     }
-    /* .hidden{
-        opacity: 0;
-        transition: all 1s;
+   #skills{
+    margin-top: 100px;
+   }
     }
-    .show{
-        transform: all 2s;
-        opacity: 1;
-    }
-    } */
 
 
 
@@ -228,11 +231,23 @@ padding-bottom: 30px;
     }
     #education .card{
         margin-right: auto;
+        margin-left: auto;
         margin-top: 10px;
+    }
+    #education{
+        text-align: center;
+        align-items: center;
+        margin-top: 200px;
     }
     #mystory{
         margin-top: 100px;
+        margin-bottom: 300px;
+    }
+    #projects{
         margin-bottom: 150px;
+    }
+    .head-1{
+        padding-top: 50px;
     }
     .img1{
         height: 400px;
