@@ -235,6 +235,10 @@ padding-bottom: 30px;
     .con2{
         padding-left: 60px;
     }
+    .skillset{
+        width: 80%;
+        height: 300px;
+    }
     #education .card{
         margin-right: auto;
         margin-left: auto;
