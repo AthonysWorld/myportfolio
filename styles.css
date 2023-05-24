@@ -143,6 +143,7 @@ text-align: center;}
 /* FOOTER */
 .icons{
     margin-right: 20px;
+    margin-bottom: 20px;
     color: #a5d7e8;
 }
 .footer-container{
@@ -163,6 +164,10 @@ padding-bottom: 30px;
 @media(max-width :900px) {
     #header #education h1{
         font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem ;
+        font-family: poppins;
     }
     .work{ height: 200px;
     }
@@ -195,6 +200,7 @@ padding-bottom: 30px;
         padding-top: 0;
         margin-bottom: 100px;
         font-size: 16px;
+        text-align: left;
     margin-left: 0;}
     #mystory{
         margin-top: 50px;
@@ -221,7 +227,7 @@ padding-bottom: 30px;
 
 @media (min-width:900px) {
     #header h1{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .text{
         margin-bottom: 30px;
