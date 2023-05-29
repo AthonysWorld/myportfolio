@@ -9,6 +9,7 @@ a{
 .icon{
 color: #a5d7e8;
 margin-bottom: 10px;
+margin-right: 80px;
 }
 .fixed-top{
     background-color: #0b2447;
@@ -51,12 +52,18 @@ span{color:white;}
 .nav-link{
     color: #a5d7e8;
 }
+.skillset{
+    margin-top: 50px;
+}
 hr{
-    color: white;
+    color: #a5d7e8;
     margin-top: 40px;
 }
 .hr-two{
     margin-top: 80px;
+}
+h3{
+    display: inline-block;
 }
 .logo{
     height: 60px;
@@ -176,6 +183,9 @@ padding-bottom: 30px;
     #projects{
         font-size: 16px;
     }
+    .edu-fluid{
+        padding-top: 0%;
+    }
 
     #education .card{
         margin-bottom: 20px;
@@ -238,8 +248,7 @@ padding-bottom: 30px;
         padding-left: 60px;
     }
     .skillset{
-        width: 80%;
-        height: 300px;
+       width: 50%;
     }
     #education .card{
         margin-right: auto;
