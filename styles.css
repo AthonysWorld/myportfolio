@@ -160,6 +160,11 @@ text-align: center;}
 text-align: center;
 padding-bottom: 30px;
 }
+.container-b{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 /* FOOTER ENDS */
 
 #skills{
