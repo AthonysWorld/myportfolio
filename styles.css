@@ -190,6 +190,9 @@ padding-bottom: 30px;
     #header #education h1{
         font-size: 2rem;
     }
+    .project-row{
+        margin-bottom: 50px;
+    }
     h1{
         font-size: 3rem ;
         font-family: poppins;
@@ -276,12 +279,25 @@ padding-bottom: 30px;
         align-items: center;
         margin-top: 200px;
     }
+    .hidden{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .foot{
+        padding: 50px;
+        padding: 50px; 
+    }
+    .project-row{
+        margin-bottom: 150px;
+    }
     #mystory{
         margin-top: 100px;
         margin-bottom: 300px;
     }
     #projects{
         margin-bottom: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .head-1{
         padding-top: 50px;
