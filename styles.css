@@ -193,6 +193,11 @@ padding-bottom: 30px;
     .project-row{
         margin-bottom: 50px;
     }
+    .img{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
     h1{
         font-size: 3rem ;
         font-family: poppins;
