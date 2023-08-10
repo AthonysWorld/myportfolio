@@ -1,4 +1,7 @@
-body{
+*{
+    font-family: 'Creepster', cursive;
+}
+    body{
     margin: 0;
     background-color: #0b2447;
     color: #a5d7e8;
