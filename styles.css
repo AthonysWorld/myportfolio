@@ -7,6 +7,9 @@
     background-color: #0b2447;
     color: #a5d7e8;
 }
+p{
+    font-size: 16px;
+}
 a{
     text-decoration: none;
 }
